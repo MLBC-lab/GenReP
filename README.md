@@ -79,6 +79,14 @@ Below are more detailed usage examples for the CLI. Each example demonstrates ho
     ```
     python -m genrep.cli "CCc1ccc(cc1)Cl" >> predictions.log
     ```
+
+---
+## Common Problems
+- ModuleNotFoundError: No module named 'genrep'<br/>
+The GenReP model needs to be trained before it can be used to make predictions. If you are unable to use the code available here and the information available in the corresponding, then reach out to the author of this repo and we can provide the trained GenRep model. 
+
+
+
 ---
 ## Citation
   + Publication pending.
